@@ -12,6 +12,7 @@ html, body {
 /*FORMATANDO AS FONTES*/
 p, label {
     font-size: 15px;
+    line-height:1.4;
 }
 
 h1 {
@@ -23,20 +24,19 @@ h2, h3 {
 }
 
 main h2 {
-    padding-top: 40px;
+    padding-top:10px;
     text-align: center;
 }
 
-.subtitulo {
-    padding-left: 200px;
-    max-width: 580px;
+.subtitulo, #subtitulo {
+    max-width: 1000px;
     text-align: center;
+    align-items: center; 
 }
 
 .containerMaster{
     background-color: white;
     text-align: center;
-    max-width: 1000px;
     font-size: 18px;
     padding: 0;
     margin: 0 auto !important;
@@ -104,15 +104,22 @@ a:hover {
     margin: 10px;
     border: 2px solid #000000;
     border-radius: 2100px;
-    width: 250px; 
-    height: 250px;
+    width: 220px; 
+    height: 220px;
+    box-shadow: 2px 5px 2px#E384FF,
+                5px 10px #865DFF;
+}
+
+main {
+    padding-left: 500px;
+    padding-right: 500px;
+    max-width: 1000px;
 }
 
 /*FORMATAÇÃO DO BANNER */
 
-.texto-subtitulo {
+.subtitulo {
     justify-content: center;
-    text-align: justify;
 }
 
 .adocao { 
@@ -142,6 +149,7 @@ a:hover {
     background-color: #fffaff;
     box-shadow: 2px 5px 2px#E384FF,
                 5px 10px #865DFF;
+}
 }
 
 .campo_nome, .campo_email, .campo_tel {
