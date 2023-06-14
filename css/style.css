@@ -28,6 +28,14 @@ main h2 {
     text-align: center;
 }
 
+main img {
+    width: 100%;
+}
+
+header, footer {
+    width: 100%;
+}
+
 .subtitulo, #subtitulo {
     max-width: 1000px;
     text-align: center;
@@ -54,8 +62,7 @@ header, nav {
     background-color: #AB87FF;
 }
 #logo {
-    width: 1000px;
-    height: 150px;
+    max-height: 150px;
 }
 a {
     color: #FFACE4;
@@ -111,9 +118,9 @@ a:hover {
 }
 
 main {
-    padding-left: 500px;
-    padding-right: 500px;
+    min-width: 320px;
     max-width: 1000px;
+    margin: auto;
 }
 
 /*FORMATAÇÃO DO BANNER */
@@ -135,6 +142,7 @@ main {
     text-align: center;
     align-items: center;
     flex-direction: row;
+    width: 100%;
 }
 .formAdoc {
     display: flex;
@@ -149,11 +157,21 @@ main {
     background-color: #fffaff;
     box-shadow: 2px 5px 2px#E384FF,
                 5px 10px #865DFF;
-}
+    width: 100%;
 }
 
 .campo_nome, .campo_email, .campo_tel {
     display: block;
+}
+
+form, input, textarea {
+    footer {
+        width: 100%; 
+        min-height: 250px;
+        display: flex;
+        justify-content: center;
+     }
+    width: 100%;
 }
 
 form input, form textarea {
@@ -190,18 +208,25 @@ button:hover {
   }
 
  /* ESTILIZANDO O RODAPÉ */ 
+ footer {
+    width: 100%; 
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+ }
 .rodape {
     background-color: #AB87FF;
-        min-height: auto;
+    min-height: auto;
+    width: 100%;
 }
+
 .ladoalado {
     font-size: 15px;
     text-align: top;
     display: flex;
-    flex-wrap: ;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
     }
 
 .newsletter{
@@ -217,6 +242,11 @@ button:hover {
 .estabelecimento{
     margin: 20px;
     padding: 10px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
 }
 
 .bemV{
