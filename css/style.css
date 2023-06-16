@@ -77,7 +77,14 @@ a:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;  
 }
-/* AS IMAGENS */
+
+
+/* ESTILIZANDO A PÁGINA DE INÍCIO*/
+.imgs img {
+    width: auto;
+}
+
+/* CONTAINERS DE ADOÇÃO */
 
 .container {
     text-align: center;
@@ -123,7 +130,7 @@ main {
     margin: auto;
 }
 
-/*FORMATAÇÃO DO BANNER */
+/*FORMATAÇÃO DO BANNER DE ADOÇÃO */
 
 .subtitulo {
     justify-content: center;
@@ -135,7 +142,7 @@ main {
     align-items: center; 
     }
 
-/* ESTILIZANDO O FORMULÁRIO */
+/* ESTILIZANDO O FORMULÁRIO DE ADOÇÃO */
 .Formulario {
     justify-content: right;
     display: flex;
@@ -205,6 +212,29 @@ form button {
 
 button:hover {
     background-color: #fbff10;
+  }
+
+/*CUPOM ESCONDIDO*/
+  #button{
+    border: none;
+    width: 1000px;
+    height: 150px;
+    cursor: pointer;
+  }
+  
+  #message{
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+  
+  .hide{
+    visibility: hidden;
+  }
+  
+  .reveal{
+    visibility: visible;
   }
 
  /* ESTILIZANDO O RODAPÉ */ 
