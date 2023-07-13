@@ -8,3 +8,5 @@ A idéia surgiu após as aulas de HTML e CSS do curso de desenvolvimento full st
 Sim! Algumas imagens foram retiradas de algumas notícias sobre o [Gato Café](https://gatocafeoficial.com.br/) que possui duas filiais no Rio de Janeiro. Em Brasília, existe o [Betina Café](https://betinacatcafe.com.br/).
 No estado de São Paulo, encontramos três cafeterias diferentes: [GATCHA](https://www.instagram.com/gatchasp/), [Gato pingado](https://www.gatopingado.com/), [Gateria Cat Cafe](https://gateriacatcafe.com.br/) e [Café com gato](https://cafecomgato.com.br/).
 
+
+https://www.tabnews.com.br/prwebdev/barra-de-pesquisa-usando-html-e-javascript < MANDAR PRA KESIA VER a função de onde copiei
