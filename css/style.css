@@ -144,15 +144,19 @@ main {
 
 /* ESTILIZANDO O FORMULÁRIO DE ADOÇÃO */
 .Formulario {
+    max-height: 500px;
+    min-height: 250px;
     justify-content: right;
     display: flex;
+    flex-direction: row;
     text-align: center;
     align-items: center;
-    flex-direction: row;
     width: 100%;
 }
 .formAdoc {
     display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
     text-align: center;
     box-sizing:border-box;
     border: 2px solid #000000;
@@ -167,8 +171,9 @@ main {
     width: 100%;
 }
 
-.campo_nome, .campo_email, .campo_tel {
-    display: block;
+.campo_nome, .campo_email, .campo_tel, textarea {
+    max-width: 400px;
+    flex: 1 0 130px;
 }
 
 form, input, textarea {
@@ -190,7 +195,7 @@ form input, form textarea {
 }
 
 form textarea {
-    display: block;
+    display: flex;
     border-radius: 10px;
     padding: 10px;
     width: 280px;
@@ -199,7 +204,7 @@ form textarea {
 
 .campo_msg {
     text-align: center;
-    display: block;
+    display: flex;
 }
 
 form button {
